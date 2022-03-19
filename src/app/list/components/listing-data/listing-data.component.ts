@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ITestData } from '../../data-object-model/list.dto';
-import * as test_data from './test_data.json';
+import * as test_data from '../../../../assets/test_data.json';
 @Component({
   selector: 'app-listing-data',
   templateUrl: './listing-data.component.html',
