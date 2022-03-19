@@ -7,6 +7,11 @@ const routes: Routes = [
     path: 'list',
     component:ListingDataComponent
   },
+  {
+    path: '',
+    redirectTo: '/list',
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
